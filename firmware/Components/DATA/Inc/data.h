@@ -62,7 +62,7 @@ typedef struct {
 /* Public defines ------------------------------------------------------------*/
 
 /* Public macros -------------------------------------------------------------*/
-#define RTD_SOUND_DURATION 2000
+#define RTD_SOUND_DURATION 4000
 
 /* Public variables ----------------------------------------------------------*/
 extern Data_TypeDef data;

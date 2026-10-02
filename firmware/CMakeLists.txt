@@ -87,6 +87,9 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
      # Add user defined include paths
 )
 
+#REARBOX CHANGE TO ENSURE SUCCESSFUL SETUP (LIBRARY INSTALLED MANUALLY): Set venv
+set(VENV "${PROJECT_SOURCE_DIR}/Components/PUTM_EV_CAN_LIBRARY/database/.venv")
+
 # Add project symbols (macros)
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined symbols
